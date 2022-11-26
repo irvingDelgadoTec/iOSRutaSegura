@@ -1,0 +1,6 @@
+framework module Pods_RutaSeguraTests {
+  umbrella header "Pods-RutaSeguraTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

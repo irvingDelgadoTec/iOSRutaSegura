@@ -1,0 +1,868 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SwiftLint;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		22648E8AEBF0335344C22CB96DEC399F /* Pods-RutaSegura-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D53BE6A8B4287C47A70F5F9D3B3D9E30 /* Pods-RutaSegura-dummy.m */; };
+		32A16057DC618C9838264641685E1E24 /* Pods-RutaSegura-RutaSeguraUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2349AC1ED427388D6913579BF4405CE6 /* Pods-RutaSegura-RutaSeguraUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		471C96458D2E18E294D21F6EC4C2F90C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4AAF7503C00A475997EEA6FB93C0007E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6E75BFBFA4A0653C77BB26924D9A3B28 /* Pods-RutaSeguraTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9992AACB6B6A7CFAD1F5FA33FDEE15 /* Pods-RutaSeguraTests-dummy.m */; };
+		6F76A6BB05B497AFA5F5EDB5BC924B45 /* Pods-RutaSegura-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E10FEBF378A2CADCEB1ECFF3B91D1D8 /* Pods-RutaSegura-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B3BC5D3CEF3EE33E67919A811771147 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BF0DCD24A4964829C05916A112B3A0BD /* Pods-RutaSeguraTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A229CDD7A4C81825E4DAC2261BF8E90F /* Pods-RutaSeguraTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9863C53A618C4A8C7F2A224FDA7C05D /* Pods-RutaSegura-RutaSeguraUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30663B1A0CB2E30C6A9C090AA6643A8A /* Pods-RutaSegura-RutaSeguraUITests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37C5DA150DC2CED3BDBF9B922C9B134A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E1C6AC79197869F2606DAF13D675CB5;
+			remoteInfo = "Pods-RutaSegura";
+		};
+		957EF0CA13CB9B2E28BE4217F781A326 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
+		};
+		9B26B30EDCEB81CE4058AC89D9FA4966 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2349AC1ED427388D6913579BF4405CE6 /* Pods-RutaSegura-RutaSeguraUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RutaSegura-RutaSeguraUITests-umbrella.h"; sourceTree = "<group>"; };
+		2A7C7F99C38E2BF8F44FD7F90F225974 /* Pods-RutaSeguraTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RutaSeguraTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		30663B1A0CB2E30C6A9C090AA6643A8A /* Pods-RutaSegura-RutaSeguraUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RutaSegura-RutaSeguraUITests-dummy.m"; sourceTree = "<group>"; };
+		3293CD62510B61D74D16A8A966CD903A /* Pods-RutaSegura-RutaSeguraUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RutaSegura-RutaSeguraUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		37F0FA73EE1C27DE5330E1D366F445D4 /* Pods-RutaSegura-RutaSeguraUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RutaSegura-RutaSeguraUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3E10FEBF378A2CADCEB1ECFF3B91D1D8 /* Pods-RutaSegura-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RutaSegura-umbrella.h"; sourceTree = "<group>"; };
+		3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.debug.xcconfig; sourceTree = "<group>"; };
+		41671AF982B887B7553984B88818511E /* Pods-RutaSeguraTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RutaSeguraTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4AC6B42D6B0D18C12BE635ACED6E0D54 /* Pods-RutaSeguraTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RutaSeguraTests"; path = Pods_RutaSeguraTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DB5EA36B5785C23973C5D6CB3E0F4E0 /* Pods-RutaSegura-RutaSeguraUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RutaSegura-RutaSeguraUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		60CF2E1B7E2B38099AF0604E970BC9AB /* Pods-RutaSegura.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RutaSegura.modulemap"; sourceTree = "<group>"; };
+		701DF251A9F4F8BDDEFCD696202F7B22 /* Pods-RutaSeguraTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RutaSeguraTests.release.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7420957098728EC3E7BF7BCECFA6FFDE /* Pods-RutaSegura-RutaSeguraUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RutaSegura-RutaSeguraUITests"; path = Pods_RutaSegura_RutaSeguraUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.release.xcconfig; sourceTree = "<group>"; };
+		81AF11A4453984E3F20BF5BD64D396C3 /* Pods-RutaSegura.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RutaSegura.debug.xcconfig"; sourceTree = "<group>"; };
+		8FCFDDBD5936A4BC0443618528A543FF /* Pods-RutaSegura-RutaSeguraUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RutaSegura-RutaSeguraUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A229CDD7A4C81825E4DAC2261BF8E90F /* Pods-RutaSeguraTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RutaSeguraTests-umbrella.h"; sourceTree = "<group>"; };
+		AFD98ED5BDB2977910825AF2279179D3 /* Pods-RutaSegura-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RutaSegura-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B8FBEDC053A38699E0ECA6AF1F32745A /* Pods-RutaSegura.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RutaSegura.release.xcconfig"; sourceTree = "<group>"; };
+		D312AAECE6278A4FE47E8F008B6678FA /* Pods-RutaSeguraTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RutaSeguraTests-Info.plist"; sourceTree = "<group>"; };
+		D53BE6A8B4287C47A70F5F9D3B3D9E30 /* Pods-RutaSegura-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RutaSegura-dummy.m"; sourceTree = "<group>"; };
+		DA0961734AF01818339247B0EBF611D9 /* Pods-RutaSeguraTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RutaSeguraTests.modulemap"; sourceTree = "<group>"; };
+		E004F96A0B9BB047772FCA3C60F10B64 /* Pods-RutaSegura-RutaSeguraUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RutaSegura-RutaSeguraUITests-Info.plist"; sourceTree = "<group>"; };
+		E0527D9078418E91364DBC24A16C3FD2 /* Pods-RutaSegura-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RutaSegura-acknowledgements.plist"; sourceTree = "<group>"; };
+		EF9992AACB6B6A7CFAD1F5FA33FDEE15 /* Pods-RutaSeguraTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RutaSeguraTests-dummy.m"; sourceTree = "<group>"; };
+		F35E28FCB723C21B0230B88F19174E39 /* Pods-RutaSegura-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RutaSegura-Info.plist"; sourceTree = "<group>"; };
+		F4738571C10EF627A45356A6589CC630 /* Pods-RutaSegura */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RutaSegura"; path = Pods_RutaSegura.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCC577DFD54BFEE465151977394B01E6 /* Pods-RutaSegura-RutaSeguraUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RutaSegura-RutaSeguraUITests.modulemap"; sourceTree = "<group>"; };
+		FF1DD184CCCEC1168F927864D233D375 /* Pods-RutaSeguraTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RutaSeguraTests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02677F49591CF5E5DE5EDBAF1A2E3F6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B3BC5D3CEF3EE33E67919A811771147 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E07550D985B4A3FB42A1C7CA4AF2A6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AAF7503C00A475997EEA6FB93C0007E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8827DC6BA9C6A8101FF44A79E1E5993B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				471C96458D2E18E294D21F6EC4C2F90C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		63BC6F8AB1740F97408179BB0880C90C /* Pods-RutaSeguraTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA0961734AF01818339247B0EBF611D9 /* Pods-RutaSeguraTests.modulemap */,
+				2A7C7F99C38E2BF8F44FD7F90F225974 /* Pods-RutaSeguraTests-acknowledgements.markdown */,
+				FF1DD184CCCEC1168F927864D233D375 /* Pods-RutaSeguraTests-acknowledgements.plist */,
+				EF9992AACB6B6A7CFAD1F5FA33FDEE15 /* Pods-RutaSeguraTests-dummy.m */,
+				D312AAECE6278A4FE47E8F008B6678FA /* Pods-RutaSeguraTests-Info.plist */,
+				A229CDD7A4C81825E4DAC2261BF8E90F /* Pods-RutaSeguraTests-umbrella.h */,
+				41671AF982B887B7553984B88818511E /* Pods-RutaSeguraTests.debug.xcconfig */,
+				701DF251A9F4F8BDDEFCD696202F7B22 /* Pods-RutaSeguraTests.release.xcconfig */,
+			);
+			name = "Pods-RutaSeguraTests";
+			path = "Target Support Files/Pods-RutaSeguraTests";
+			sourceTree = "<group>";
+		};
+		7FDA596DBE0337ACDFE55A210D54EF26 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */,
+				7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftLint";
+			sourceTree = "<group>";
+		};
+		8D08B05AEFDD80239A80F37E1858B834 /* Pods-RutaSegura */ = {
+			isa = PBXGroup;
+			children = (
+				60CF2E1B7E2B38099AF0604E970BC9AB /* Pods-RutaSegura.modulemap */,
+				AFD98ED5BDB2977910825AF2279179D3 /* Pods-RutaSegura-acknowledgements.markdown */,
+				E0527D9078418E91364DBC24A16C3FD2 /* Pods-RutaSegura-acknowledgements.plist */,
+				D53BE6A8B4287C47A70F5F9D3B3D9E30 /* Pods-RutaSegura-dummy.m */,
+				F35E28FCB723C21B0230B88F19174E39 /* Pods-RutaSegura-Info.plist */,
+				3E10FEBF378A2CADCEB1ECFF3B91D1D8 /* Pods-RutaSegura-umbrella.h */,
+				81AF11A4453984E3F20BF5BD64D396C3 /* Pods-RutaSegura.debug.xcconfig */,
+				B8FBEDC053A38699E0ECA6AF1F32745A /* Pods-RutaSegura.release.xcconfig */,
+			);
+			name = "Pods-RutaSegura";
+			path = "Target Support Files/Pods-RutaSegura";
+			sourceTree = "<group>";
+		};
+		8E583E11B9D000D222CFF3DE93031C6F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D08B05AEFDD80239A80F37E1858B834 /* Pods-RutaSegura */,
+				B8F089793E2560CBDF216F1901D9C5B1 /* Pods-RutaSegura-RutaSeguraUITests */,
+				63BC6F8AB1740F97408179BB0880C90C /* Pods-RutaSeguraTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		965877409E01FB3D85D85E90E6B30185 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D96179D43A67C5D5323B0682D32C133C /* SwiftLint */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B8F089793E2560CBDF216F1901D9C5B1 /* Pods-RutaSegura-RutaSeguraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCC577DFD54BFEE465151977394B01E6 /* Pods-RutaSegura-RutaSeguraUITests.modulemap */,
+				3293CD62510B61D74D16A8A966CD903A /* Pods-RutaSegura-RutaSeguraUITests-acknowledgements.markdown */,
+				8FCFDDBD5936A4BC0443618528A543FF /* Pods-RutaSegura-RutaSeguraUITests-acknowledgements.plist */,
+				30663B1A0CB2E30C6A9C090AA6643A8A /* Pods-RutaSegura-RutaSeguraUITests-dummy.m */,
+				E004F96A0B9BB047772FCA3C60F10B64 /* Pods-RutaSegura-RutaSeguraUITests-Info.plist */,
+				2349AC1ED427388D6913579BF4405CE6 /* Pods-RutaSegura-RutaSeguraUITests-umbrella.h */,
+				5DB5EA36B5785C23973C5D6CB3E0F4E0 /* Pods-RutaSegura-RutaSeguraUITests.debug.xcconfig */,
+				37F0FA73EE1C27DE5330E1D366F445D4 /* Pods-RutaSegura-RutaSeguraUITests.release.xcconfig */,
+			);
+			name = "Pods-RutaSegura-RutaSeguraUITests";
+			path = "Target Support Files/Pods-RutaSegura-RutaSeguraUITests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				965877409E01FB3D85D85E90E6B30185 /* Pods */,
+				E0EF8ECFEEC49C9A769CE1B13DAF2AFB /* Products */,
+				8E583E11B9D000D222CFF3DE93031C6F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D96179D43A67C5D5323B0682D32C133C /* SwiftLint */ = {
+			isa = PBXGroup;
+			children = (
+				7FDA596DBE0337ACDFE55A210D54EF26 /* Support Files */,
+			);
+			name = SwiftLint;
+			path = SwiftLint;
+			sourceTree = "<group>";
+		};
+		E0EF8ECFEEC49C9A769CE1B13DAF2AFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4738571C10EF627A45356A6589CC630 /* Pods-RutaSegura */,
+				7420957098728EC3E7BF7BCECFA6FFDE /* Pods-RutaSegura-RutaSeguraUITests */,
+				4AC6B42D6B0D18C12BE635ACED6E0D54 /* Pods-RutaSeguraTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B418608BF08AD52679BAA74603C2DB9C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F76A6BB05B497AFA5F5EDB5BC924B45 /* Pods-RutaSegura-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C193F4ED210EE706A28AF662A2E4457B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF0DCD24A4964829C05916A112B3A0BD /* Pods-RutaSeguraTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7563EDFB420AB202B07C7597117A599 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A16057DC618C9838264641685E1E24 /* Pods-RutaSegura-RutaSeguraUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0D85D61B1D4B0BB2865196902B604F43 /* Pods-RutaSeguraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABF3A13E8531CE370F4F4B0BB20082CA /* Build configuration list for PBXNativeTarget "Pods-RutaSeguraTests" */;
+			buildPhases = (
+				C193F4ED210EE706A28AF662A2E4457B /* Headers */,
+				B912DF58983C9FF3A64452BA1657C1A5 /* Sources */,
+				8827DC6BA9C6A8101FF44A79E1E5993B /* Frameworks */,
+				DC4EA1EEB21C1C184603361C83CA1FE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA31F80FF697C7EC4B9408A71DB9473B /* PBXTargetDependency */,
+			);
+			name = "Pods-RutaSeguraTests";
+			productName = Pods_RutaSeguraTests;
+			productReference = 4AC6B42D6B0D18C12BE635ACED6E0D54 /* Pods-RutaSeguraTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		0E1C6AC79197869F2606DAF13D675CB5 /* Pods-RutaSegura */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3DC428A2F28805EA576BD760C98949F /* Build configuration list for PBXNativeTarget "Pods-RutaSegura" */;
+			buildPhases = (
+				B418608BF08AD52679BAA74603C2DB9C /* Headers */,
+				AE3D7F433DE12AC92B1706066CAB3681 /* Sources */,
+				02677F49591CF5E5DE5EDBAF1A2E3F6A /* Frameworks */,
+				B5A525AF4C14C1B81076BC01120D497B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				601086DF9E8E62DCD329253EC36C7A91 /* PBXTargetDependency */,
+			);
+			name = "Pods-RutaSegura";
+			productName = Pods_RutaSegura;
+			productReference = F4738571C10EF627A45356A6589CC630 /* Pods-RutaSegura */;
+			productType = "com.apple.product-type.framework";
+		};
+		2159E554FF85A82E179E5B2036444A31 /* Pods-RutaSegura-RutaSeguraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5540FE33526D87B4509195617D314E2 /* Build configuration list for PBXNativeTarget "Pods-RutaSegura-RutaSeguraUITests" */;
+			buildPhases = (
+				D7563EDFB420AB202B07C7597117A599 /* Headers */,
+				DDFCCFD7635DDFAF16BD733D4580DB86 /* Sources */,
+				7E07550D985B4A3FB42A1C7CA4AF2A6D /* Frameworks */,
+				3DF39B66BB15EF2751246A008F2F2173 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E5BE6635690F3FE08F5F785262D991 /* PBXTargetDependency */,
+			);
+			name = "Pods-RutaSegura-RutaSeguraUITests";
+			productName = Pods_RutaSegura_RutaSeguraUITests;
+			productReference = 7420957098728EC3E7BF7BCECFA6FFDE /* Pods-RutaSegura-RutaSeguraUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E0EF8ECFEEC49C9A769CE1B13DAF2AFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E1C6AC79197869F2606DAF13D675CB5 /* Pods-RutaSegura */,
+				2159E554FF85A82E179E5B2036444A31 /* Pods-RutaSegura-RutaSeguraUITests */,
+				0D85D61B1D4B0BB2865196902B604F43 /* Pods-RutaSeguraTests */,
+				52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DF39B66BB15EF2751246A008F2F2173 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A525AF4C14C1B81076BC01120D497B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC4EA1EEB21C1C184603361C83CA1FE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE3D7F433DE12AC92B1706066CAB3681 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22648E8AEBF0335344C22CB96DEC399F /* Pods-RutaSegura-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B912DF58983C9FF3A64452BA1657C1A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E75BFBFA4A0653C77BB26924D9A3B28 /* Pods-RutaSeguraTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFCCFD7635DDFAF16BD733D4580DB86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9863C53A618C4A8C7F2A224FDA7C05D /* Pods-RutaSegura-RutaSeguraUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E5BE6635690F3FE08F5F785262D991 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = 957EF0CA13CB9B2E28BE4217F781A326 /* PBXContainerItemProxy */;
+		};
+		601086DF9E8E62DCD329253EC36C7A91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = 9B26B30EDCEB81CE4058AC89D9FA4966 /* PBXContainerItemProxy */;
+		};
+		BA31F80FF697C7EC4B9408A71DB9473B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RutaSegura";
+			target = 0E1C6AC79197869F2606DAF13D675CB5 /* Pods-RutaSegura */;
+			targetProxy = 37C5DA150DC2CED3BDBF9B922C9B134A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11399EECEC964DA148D837B2DDC009F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41671AF982B887B7553984B88818511E /* Pods-RutaSeguraTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RutaSeguraTests/Pods-RutaSeguraTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RutaSeguraTests/Pods-RutaSeguraTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1176BB3D6FD9B0B3A5FDF07D8C21554B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DB5EA36B5785C23973C5D6CB3E0F4E0 /* Pods-RutaSegura-RutaSeguraUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RutaSegura-RutaSeguraUITests/Pods-RutaSegura-RutaSeguraUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RutaSegura-RutaSeguraUITests/Pods-RutaSegura-RutaSeguraUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AC90BF6FB6A12170A16894F88F5382E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 701DF251A9F4F8BDDEFCD696202F7B22 /* Pods-RutaSeguraTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RutaSeguraTests/Pods-RutaSeguraTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RutaSeguraTests/Pods-RutaSeguraTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AD81E62ACCB0B7A923FC8AA288F9921E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D97210036AE23D5B7F887799A903973C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8FBEDC053A38699E0ECA6AF1F32745A /* Pods-RutaSegura.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RutaSegura/Pods-RutaSegura-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RutaSegura/Pods-RutaSegura.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EADD1F50ABC8096A0D6CB18822BB4EE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F17987FE9226FC4509CB777EDCD34055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37F0FA73EE1C27DE5330E1D366F445D4 /* Pods-RutaSegura-RutaSeguraUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RutaSegura-RutaSeguraUITests/Pods-RutaSegura-RutaSeguraUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RutaSegura-RutaSeguraUITests/Pods-RutaSegura-RutaSeguraUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F934750AB1E0BE289F4F88913D36CA62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81AF11A4453984E3F20BF5BD64D396C3 /* Pods-RutaSegura.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RutaSegura/Pods-RutaSegura-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RutaSegura/Pods-RutaSegura.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5540FE33526D87B4509195617D314E2 /* Build configuration list for PBXNativeTarget "Pods-RutaSegura-RutaSeguraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1176BB3D6FD9B0B3A5FDF07D8C21554B /* Debug */,
+				F17987FE9226FC4509CB777EDCD34055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABF3A13E8531CE370F4F4B0BB20082CA /* Build configuration list for PBXNativeTarget "Pods-RutaSeguraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11399EECEC964DA148D837B2DDC009F4 /* Debug */,
+				AC90BF6FB6A12170A16894F88F5382E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EADD1F50ABC8096A0D6CB18822BB4EE4 /* Debug */,
+				AD81E62ACCB0B7A923FC8AA288F9921E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3DC428A2F28805EA576BD760C98949F /* Build configuration list for PBXNativeTarget "Pods-RutaSegura" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F934750AB1E0BE289F4F88913D36CA62 /* Debug */,
+				D97210036AE23D5B7F887799A903973C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

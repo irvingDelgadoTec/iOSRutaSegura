@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03F0931467EE724F3EBA9D75 /* Pods_RutaSegura_RutaSeguraUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 385D4DC2F51BB633BD6FCDBE /* Pods_RutaSegura_RutaSeguraUITests.framework */; };
 		3FB12ADC293094F900FA39FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB12ADB293094F900FA39FE /* AppDelegate.swift */; };
 		3FB12ADE293094F900FA39FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB12ADD293094F900FA39FE /* SceneDelegate.swift */; };
 		3FB12AE0293094F900FA39FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB12ADF293094F900FA39FE /* ViewController.swift */; };
@@ -16,6 +17,8 @@
 		3FB12AF3293094FB00FA39FE /* RutaSeguraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB12AF2293094FB00FA39FE /* RutaSeguraTests.swift */; };
 		3FB12AFD293094FB00FA39FE /* RutaSeguraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB12AFC293094FB00FA39FE /* RutaSeguraUITests.swift */; };
 		3FB12AFF293094FB00FA39FE /* RutaSeguraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB12AFE293094FB00FA39FE /* RutaSeguraUITestsLaunchTests.swift */; };
+		5D828389A36645759C3D4F15 /* Pods_RutaSeguraTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D43718A58951F0EA1060187 /* Pods_RutaSeguraTests.framework */; };
+		DCA64A8FF838182164D537E5 /* Pods_RutaSegura.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2E91D6CB7FFCC02D9D1E982 /* Pods_RutaSegura.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D43718A58951F0EA1060187 /* Pods_RutaSeguraTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RutaSeguraTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31DE700B96E679B56904812E /* Pods-RutaSegura-RutaSeguraUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RutaSegura-RutaSeguraUITests.release.xcconfig"; path = "Target Support Files/Pods-RutaSegura-RutaSeguraUITests/Pods-RutaSegura-RutaSeguraUITests.release.xcconfig"; sourceTree = "<group>"; };
+		385D4DC2F51BB633BD6FCDBE /* Pods_RutaSegura_RutaSeguraUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RutaSegura_RutaSeguraUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FB12AD8293094F900FA39FE /* RutaSegura.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RutaSegura.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FB12ADB293094F900FA39FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FB12ADD293094F900FA39FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +55,12 @@
 		3FB12AF8293094FB00FA39FE /* RutaSeguraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RutaSeguraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FB12AFC293094FB00FA39FE /* RutaSeguraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RutaSeguraUITests.swift; sourceTree = "<group>"; };
 		3FB12AFE293094FB00FA39FE /* RutaSeguraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RutaSeguraUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		45D3097E07915575849118F7 /* Pods-RutaSegura-RutaSeguraUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RutaSegura-RutaSeguraUITests.debug.xcconfig"; path = "Target Support Files/Pods-RutaSegura-RutaSeguraUITests/Pods-RutaSegura-RutaSeguraUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		90F6D40A9745A9B2F958777D /* Pods-RutaSegura.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RutaSegura.debug.xcconfig"; path = "Target Support Files/Pods-RutaSegura/Pods-RutaSegura.debug.xcconfig"; sourceTree = "<group>"; };
+		B2E91D6CB7FFCC02D9D1E982 /* Pods_RutaSegura.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RutaSegura.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE64027E428A89ED4F8D267C /* Pods-RutaSeguraTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RutaSeguraTests.debug.xcconfig"; path = "Target Support Files/Pods-RutaSeguraTests/Pods-RutaSeguraTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F10036A65FAF19AB27674CA9 /* Pods-RutaSegura.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RutaSegura.release.xcconfig"; path = "Target Support Files/Pods-RutaSegura/Pods-RutaSegura.release.xcconfig"; sourceTree = "<group>"; };
+		F5B7DC62F4BA90C8F5249087 /* Pods-RutaSeguraTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RutaSeguraTests.release.xcconfig"; path = "Target Support Files/Pods-RutaSeguraTests/Pods-RutaSeguraTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCA64A8FF838182164D537E5 /* Pods_RutaSegura.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D828389A36645759C3D4F15 /* Pods_RutaSeguraTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03F0931467EE724F3EBA9D75 /* Pods_RutaSegura_RutaSeguraUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13A0309674181850D4823AC8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90F6D40A9745A9B2F958777D /* Pods-RutaSegura.debug.xcconfig */,
+				F10036A65FAF19AB27674CA9 /* Pods-RutaSegura.release.xcconfig */,
+				45D3097E07915575849118F7 /* Pods-RutaSegura-RutaSeguraUITests.debug.xcconfig */,
+				31DE700B96E679B56904812E /* Pods-RutaSegura-RutaSeguraUITests.release.xcconfig */,
+				BE64027E428A89ED4F8D267C /* Pods-RutaSeguraTests.debug.xcconfig */,
+				F5B7DC62F4BA90C8F5249087 /* Pods-RutaSeguraTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		3FB12ACF293094F900FA39FE = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +112,8 @@
 				3FB12AF1293094FB00FA39FE /* RutaSeguraTests */,
 				3FB12AFB293094FB00FA39FE /* RutaSeguraUITests */,
 				3FB12AD9293094F900FA39FE /* Products */,
+				13A0309674181850D4823AC8 /* Pods */,
+				7341DFAB037E447331EDAA90 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +158,16 @@
 			path = RutaSeguraUITests;
 			sourceTree = "<group>";
 		};
+		7341DFAB037E447331EDAA90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2E91D6CB7FFCC02D9D1E982 /* Pods_RutaSegura.framework */,
+				385D4DC2F51BB633BD6FCDBE /* Pods_RutaSegura_RutaSeguraUITests.framework */,
+				0D43718A58951F0EA1060187 /* Pods_RutaSeguraTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,6 +175,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3FB12B02293094FB00FA39FE /* Build configuration list for PBXNativeTarget "RutaSegura" */;
 			buildPhases = (
+				06EF87785E9BBE5F7C018371 /* [CP] Check Pods Manifest.lock */,
 				3FB12AD4293094F900FA39FE /* Sources */,
 				3FB12AD5293094F900FA39FE /* Frameworks */,
 				3FB12AD6293094F900FA39FE /* Resources */,
@@ -151,6 +193,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3FB12B05293094FB00FA39FE /* Build configuration list for PBXNativeTarget "RutaSeguraTests" */;
 			buildPhases = (
+				4B10DFC4FF3E986B5A3CEAEA /* [CP] Check Pods Manifest.lock */,
 				3FB12AEA293094FB00FA39FE /* Sources */,
 				3FB12AEB293094FB00FA39FE /* Frameworks */,
 				3FB12AEC293094FB00FA39FE /* Resources */,
@@ -169,6 +212,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3FB12B08293094FB00FA39FE /* Build configuration list for PBXNativeTarget "RutaSeguraUITests" */;
 			buildPhases = (
+				590D0B8B7EEDD5CA311608C7 /* [CP] Check Pods Manifest.lock */,
 				3FB12AF4293094FB00FA39FE /* Sources */,
 				3FB12AF5293094FB00FA39FE /* Frameworks */,
 				3FB12AF6293094FB00FA39FE /* Resources */,
@@ -207,7 +251,7 @@
 				};
 			};
 			buildConfigurationList = 3FB12AD3293094F900FA39FE /* Build configuration list for PBXProject "RutaSegura" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -252,6 +296,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06EF87785E9BBE5F7C018371 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RutaSegura-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B10DFC4FF3E986B5A3CEAEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RutaSeguraTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		590D0B8B7EEDD5CA311608C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RutaSegura-RutaSeguraUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3FB12AD4293094F900FA39FE /* Sources */ = {
@@ -432,6 +545,7 @@
 		};
 		3FB12B03293094FB00FA39FE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90F6D40A9745A9B2F958777D /* Pods-RutaSegura.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -462,6 +576,7 @@
 		};
 		3FB12B04293094FB00FA39FE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F10036A65FAF19AB27674CA9 /* Pods-RutaSegura.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -492,6 +607,7 @@
 		};
 		3FB12B06293094FB00FA39FE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE64027E428A89ED4F8D267C /* Pods-RutaSeguraTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -514,6 +630,7 @@
 		};
 		3FB12B07293094FB00FA39FE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5B7DC62F4BA90C8F5249087 /* Pods-RutaSeguraTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -536,6 +653,7 @@
 		};
 		3FB12B09293094FB00FA39FE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45D3097E07915575849118F7 /* Pods-RutaSegura-RutaSeguraUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -556,6 +674,7 @@
 		};
 		3FB12B0A293094FB00FA39FE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31DE700B96E679B56904812E /* Pods-RutaSegura-RutaSeguraUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
