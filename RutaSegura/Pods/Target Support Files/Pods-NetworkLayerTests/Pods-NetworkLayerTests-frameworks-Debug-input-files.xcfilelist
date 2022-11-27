@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-NetworkLayerTests/Pods-NetworkLayerTests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/RxSwift-iOS14.1/RxSwift.framework
+${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework

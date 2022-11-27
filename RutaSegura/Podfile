@@ -1,11 +1,15 @@
-# Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+workspace 'RutaSegura'
+
+def rx
+  pod 'RxSwift', '~> 5.0'
+  pod 'RxCocoa', '~> 5.0'
+end
+
+use_frameworks!
 
 target 'RutaSegura' do
-  # Comment the next line if you don't want to use dynamic frameworks
-  use_frameworks!
 
-  # Pods for RutaSegura
+  rx
   pod 'SwiftLint'
 
 
@@ -16,6 +20,24 @@ target 'RutaSegura' do
 
   target 'RutaSeguraUITests' do
     # Pods for testing
+  end
+
+end
+
+
+
+
+# Pods for NetworkLayer
+target 'NetworkLayer' do
+  use_frameworks!
+  project 'Core/NetworkLayer/NetworkLayer'
+  pod 'RxSwift', '~> 5.0'
+  pod 'RxCocoa', '~> 5.0'
+  pod 'SwiftLint'
+
+  target 'NetworkLayerTests' do
+    pod 'RxBlocking', '~> 5.0'
+    inherit! :search_paths
   end
 
 end
