@@ -17,6 +17,9 @@
 		3FB12AF3293094FB00FA39FE /* RutaSeguraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB12AF2293094FB00FA39FE /* RutaSeguraTests.swift */; };
 		3FB12AFD293094FB00FA39FE /* RutaSeguraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB12AFC293094FB00FA39FE /* RutaSeguraUITests.swift */; };
 		3FB12AFF293094FB00FA39FE /* RutaSeguraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB12AFE293094FB00FA39FE /* RutaSeguraUITestsLaunchTests.swift */; };
+		3FEC78902935DA6D0093D2D3 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEC788F2935DA6D0093D2D3 /* AppConstants.swift */; };
+		3FEC78932935DD640093D2D3 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEC78922935DD640093D2D3 /* ApiClient.swift */; };
+		3FEC78962935E11B0093D2D3 /* RutaSeguraEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEC78952935E11B0093D2D3 /* RutaSeguraEntity.swift */; };
 		3FFB7BFB2932F6D900147037 /* NetworkLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FFB7BFA2932F6D900147037 /* NetworkLayer.framework */; };
 		3FFB7BFC2932F6D900147037 /* NetworkLayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3FFB7BFA2932F6D900147037 /* NetworkLayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5D828389A36645759C3D4F15 /* Pods_RutaSeguraTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D43718A58951F0EA1060187 /* Pods_RutaSeguraTests.framework */; };
@@ -71,6 +74,9 @@
 		3FB12AF8293094FB00FA39FE /* RutaSeguraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RutaSeguraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FB12AFC293094FB00FA39FE /* RutaSeguraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RutaSeguraUITests.swift; sourceTree = "<group>"; };
 		3FB12AFE293094FB00FA39FE /* RutaSeguraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RutaSeguraUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3FEC788F2935DA6D0093D2D3 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		3FEC78922935DD640093D2D3 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		3FEC78952935E11B0093D2D3 /* RutaSeguraEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RutaSeguraEntity.swift; sourceTree = "<group>"; };
 		3FFB7BFA2932F6D900147037 /* NetworkLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NetworkLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45D3097E07915575849118F7 /* Pods-RutaSegura-RutaSeguraUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RutaSegura-RutaSeguraUITests.debug.xcconfig"; path = "Target Support Files/Pods-RutaSegura-RutaSeguraUITests/Pods-RutaSegura-RutaSeguraUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		90F6D40A9745A9B2F958777D /* Pods-RutaSegura.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RutaSegura.debug.xcconfig"; path = "Target Support Files/Pods-RutaSegura/Pods-RutaSegura.debug.xcconfig"; sourceTree = "<group>"; };
@@ -147,6 +153,9 @@
 		3FB12ADA293094F900FA39FE /* RutaSegura */ = {
 			isa = PBXGroup;
 			children = (
+				3FEC78942935E0970093D2D3 /* Entities */,
+				3FEC78912935DD310093D2D3 /* API */,
+				3FEC788E2935DA510093D2D3 /* Resources */,
 				3FB12ADB293094F900FA39FE /* AppDelegate.swift */,
 				3FB12ADD293094F900FA39FE /* SceneDelegate.swift */,
 				3FB12ADF293094F900FA39FE /* ViewController.swift */,
@@ -173,6 +182,30 @@
 				3FB12AFE293094FB00FA39FE /* RutaSeguraUITestsLaunchTests.swift */,
 			);
 			path = RutaSeguraUITests;
+			sourceTree = "<group>";
+		};
+		3FEC788E2935DA510093D2D3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3FEC788F2935DA6D0093D2D3 /* AppConstants.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3FEC78912935DD310093D2D3 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				3FEC78922935DD640093D2D3 /* ApiClient.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		3FEC78942935E0970093D2D3 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				3FEC78952935E11B0093D2D3 /* RutaSeguraEntity.swift */,
+			);
+			path = Entities;
 			sourceTree = "<group>";
 		};
 		7341DFAB037E447331EDAA90 /* Frameworks */ = {
@@ -447,6 +480,9 @@
 				3FB12AE0293094F900FA39FE /* ViewController.swift in Sources */,
 				3FB12ADC293094F900FA39FE /* AppDelegate.swift in Sources */,
 				3FB12ADE293094F900FA39FE /* SceneDelegate.swift in Sources */,
+				3FEC78902935DA6D0093D2D3 /* AppConstants.swift in Sources */,
+				3FEC78932935DD640093D2D3 /* ApiClient.swift in Sources */,
+				3FEC78962935E11B0093D2D3 /* RutaSeguraEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

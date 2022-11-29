@@ -6,6 +6,7 @@
 //
 
 import XCTest
+import NetworkLayer
 @testable import RutaSegura
 
 final class RutaSeguraTests: XCTestCase {
@@ -30,6 +31,48 @@ final class RutaSeguraTests: XCTestCase {
         // This is an example of a performance test case.
         self.measure {
             // Put the code you want to measure the time of here.
+        }
+    }
+    
+    // Testing wether the app is correctly sending requests to getRoute endpoint using networkClient.
+    func testNetworkClientPerformValidGetRouteRequest() {
+        // Given
+        if let url = URL(string: AppConstants.API.baseURL) {
+            let sut = NetworkClient(baseURL: url)
+            
+            let routePath = String(format: AppConstants.API.getRouteEndpoint, 5, 10)
+            
+            let request = NetworkRequest(method: RequestMethod.GET, path: routePath, parameters: nil, headers: nil)
+            
+            let expectation = self.expectation(description: "Waiting for perform call to complete.")
+            
+            var result: Result<RutaSeguraEntity, NetworkError>?
+            
+            do {
+                // When
+                try sut.performRequestAndDecode(networkRequest: request) { (response: Result<RutaSeguraEntity, NetworkError>) in
+                    result = response
+                    expectation.fulfill()
+                }
+
+                // Wait for expectation to finish
+                waitForExpectations(timeout: 2) { error in
+                    XCTAssertNil(error)
+                    switch result {
+                    case .success(let routeModel):
+                        XCTAssertEqual(routeModel.costoRuta, 1392)
+                    case .failure(let networkErr):
+                        XCTFail(networkErr.localizedDescription)
+                    case .none:
+                        XCTFail("None")
+                    }
+                }
+            } catch {
+                XCTFail(error.localizedDescription)
+            }
+                        
+        } else {
+            XCTFail("Can't create url from string")
         }
     }
 
