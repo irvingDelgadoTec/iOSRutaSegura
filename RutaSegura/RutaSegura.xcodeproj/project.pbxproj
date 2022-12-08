@@ -26,6 +26,7 @@
 		5E6AEAE229419E89003FD37F /* GeoJSONFeatureEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6AEAE129419E89003FD37F /* GeoJSONFeatureEntity.swift */; };
 		5E6AEAE729419F92003FD37F /* GeoJSONManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6AEAE629419F92003FD37F /* GeoJSONManager.swift */; };
 		5E6AEAEA2941A0E2003FD37F /* UIViewGeoJSON+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6AEAE92941A0E2003FD37F /* UIViewGeoJSON+.swift */; };
+		5E6AEAEC2941A2E7003FD37F /* geojson.json in Resources */ = {isa = PBXBuildFile; fileRef = 5E6AEAEB2941A2E7003FD37F /* geojson.json */; };
 		DCA64A8FF838182164D537E5 /* Pods_RutaSegura.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2E91D6CB7FFCC02D9D1E982 /* Pods_RutaSegura.framework */; };
 /* End PBXBuildFile section */
 
@@ -85,6 +86,7 @@
 		5E6AEAE129419E89003FD37F /* GeoJSONFeatureEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoJSONFeatureEntity.swift; sourceTree = "<group>"; };
 		5E6AEAE629419F92003FD37F /* GeoJSONManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoJSONManager.swift; sourceTree = "<group>"; };
 		5E6AEAE92941A0E2003FD37F /* UIViewGeoJSON+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewGeoJSON+.swift"; sourceTree = "<group>"; };
+		5E6AEAEB2941A2E7003FD37F /* geojson.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = geojson.json; sourceTree = "<group>"; };
 		90F6D40A9745A9B2F958777D /* Pods-RutaSegura.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RutaSegura.debug.xcconfig"; path = "Target Support Files/Pods-RutaSegura/Pods-RutaSegura.debug.xcconfig"; sourceTree = "<group>"; };
 		B2E91D6CB7FFCC02D9D1E982 /* Pods_RutaSegura.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RutaSegura.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE64027E428A89ED4F8D267C /* Pods-RutaSeguraTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RutaSeguraTests.debug.xcconfig"; path = "Target Support Files/Pods-RutaSeguraTests/Pods-RutaSeguraTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -194,6 +196,7 @@
 		3FEC788E2935DA510093D2D3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5E6AEAEB2941A2E7003FD37F /* geojson.json */,
 				3FEC788F2935DA6D0093D2D3 /* AppConstants.swift */,
 			);
 			path = Resources;
@@ -364,6 +367,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FB12AE8293094FB00FA39FE /* LaunchScreen.storyboard in Resources */,
+				5E6AEAEC2941A2E7003FD37F /* geojson.json in Resources */,
 				3FB12AE5293094FB00FA39FE /* Assets.xcassets in Resources */,
 				3FB12AE3293094F900FA39FE /* Main.storyboard in Resources */,
 			);
