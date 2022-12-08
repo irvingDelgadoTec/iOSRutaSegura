@@ -23,6 +23,9 @@
 		3FFB7BFB2932F6D900147037 /* NetworkLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FFB7BFA2932F6D900147037 /* NetworkLayer.framework */; };
 		3FFB7BFC2932F6D900147037 /* NetworkLayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3FFB7BFA2932F6D900147037 /* NetworkLayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5D828389A36645759C3D4F15 /* Pods_RutaSeguraTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D43718A58951F0EA1060187 /* Pods_RutaSeguraTests.framework */; };
+		5E6AEAE229419E89003FD37F /* GeoJSONFeatureEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6AEAE129419E89003FD37F /* GeoJSONFeatureEntity.swift */; };
+		5E6AEAE729419F92003FD37F /* GeoJSONManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6AEAE629419F92003FD37F /* GeoJSONManager.swift */; };
+		5E6AEAEA2941A0E2003FD37F /* UIViewGeoJSON+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6AEAE92941A0E2003FD37F /* UIViewGeoJSON+.swift */; };
 		DCA64A8FF838182164D537E5 /* Pods_RutaSegura.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2E91D6CB7FFCC02D9D1E982 /* Pods_RutaSegura.framework */; };
 /* End PBXBuildFile section */
 
@@ -79,6 +82,9 @@
 		3FEC78952935E11B0093D2D3 /* RutaSeguraEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RutaSeguraEntity.swift; sourceTree = "<group>"; };
 		3FFB7BFA2932F6D900147037 /* NetworkLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NetworkLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45D3097E07915575849118F7 /* Pods-RutaSegura-RutaSeguraUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RutaSegura-RutaSeguraUITests.debug.xcconfig"; path = "Target Support Files/Pods-RutaSegura-RutaSeguraUITests/Pods-RutaSegura-RutaSeguraUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5E6AEAE129419E89003FD37F /* GeoJSONFeatureEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoJSONFeatureEntity.swift; sourceTree = "<group>"; };
+		5E6AEAE629419F92003FD37F /* GeoJSONManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoJSONManager.swift; sourceTree = "<group>"; };
+		5E6AEAE92941A0E2003FD37F /* UIViewGeoJSON+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewGeoJSON+.swift"; sourceTree = "<group>"; };
 		90F6D40A9745A9B2F958777D /* Pods-RutaSegura.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RutaSegura.debug.xcconfig"; path = "Target Support Files/Pods-RutaSegura/Pods-RutaSegura.debug.xcconfig"; sourceTree = "<group>"; };
 		B2E91D6CB7FFCC02D9D1E982 /* Pods_RutaSegura.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RutaSegura.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE64027E428A89ED4F8D267C /* Pods-RutaSeguraTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RutaSeguraTests.debug.xcconfig"; path = "Target Support Files/Pods-RutaSeguraTests/Pods-RutaSeguraTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -131,6 +137,7 @@
 		3FB12ACF293094F900FA39FE = {
 			isa = PBXGroup;
 			children = (
+				5E6AEAE429419F49003FD37F /* GeoJSONManager */,
 				3FB12ADA293094F900FA39FE /* RutaSegura */,
 				3FB12AF1293094FB00FA39FE /* RutaSeguraTests */,
 				3FB12AFB293094FB00FA39FE /* RutaSeguraUITests */,
@@ -206,6 +213,32 @@
 				3FEC78952935E11B0093D2D3 /* RutaSeguraEntity.swift */,
 			);
 			path = Entities;
+			sourceTree = "<group>";
+		};
+		5E6AEAE429419F49003FD37F /* GeoJSONManager */ = {
+			isa = PBXGroup;
+			children = (
+				5E6AEAE82941A047003FD37F /* GeoJSONExtensions */,
+				5E6AEAE529419F59003FD37F /* Entities */,
+				5E6AEAE629419F92003FD37F /* GeoJSONManager.swift */,
+			);
+			name = GeoJSONManager;
+			sourceTree = "<group>";
+		};
+		5E6AEAE529419F59003FD37F /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				5E6AEAE129419E89003FD37F /* GeoJSONFeatureEntity.swift */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		5E6AEAE82941A047003FD37F /* GeoJSONExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				5E6AEAE92941A0E2003FD37F /* UIViewGeoJSON+.swift */,
+			);
+			name = GeoJSONExtensions;
 			sourceTree = "<group>";
 		};
 		7341DFAB037E447331EDAA90 /* Frameworks */ = {
@@ -482,7 +515,10 @@
 				3FB12ADE293094F900FA39FE /* SceneDelegate.swift in Sources */,
 				3FEC78902935DA6D0093D2D3 /* AppConstants.swift in Sources */,
 				3FEC78932935DD640093D2D3 /* ApiClient.swift in Sources */,
+				5E6AEAE229419E89003FD37F /* GeoJSONFeatureEntity.swift in Sources */,
+				5E6AEAEA2941A0E2003FD37F /* UIViewGeoJSON+.swift in Sources */,
 				3FEC78962935E11B0093D2D3 /* RutaSeguraEntity.swift in Sources */,
+				5E6AEAE729419F92003FD37F /* GeoJSONManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
