@@ -8,12 +8,12 @@
 import Foundation
 
 struct RutaSeguraEntity: Codable {
-    let nodosRutaSegura: [Int]
-    let costoRuta: Int
+    let nodosRutaSegura: [String]
+    // let costoRuta: Int
     
     enum CodingKeys: String, CodingKey {
         case nodosRutaSegura = "puntos"
-        case costoRuta = "peso"
+        // case costoRuta = "peso"
     }
 
 }

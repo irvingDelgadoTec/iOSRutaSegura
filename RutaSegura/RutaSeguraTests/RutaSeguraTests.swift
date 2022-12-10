@@ -40,9 +40,13 @@ final class RutaSeguraTests: XCTestCase {
         if let url = URL(string: AppConstants.API.baseURL) {
             let sut = NetworkClient(baseURL: url)
             
-            let routePath = String(format: AppConstants.API.getRouteEndpoint, 5, 10)
+            // let routePath = String(format: AppConstants.API.rutaEndpoint, 5, 10)
             
-            let request = NetworkRequest(method: RequestMethod.GET, path: routePath, parameters: nil, headers: nil)
+            let routePath = AppConstants.API.rutaEndpoint
+            
+            let params = ["ini": "15", "fin": "5"]
+            
+            let request = NetworkRequest(method: RequestMethod.POST, path: routePath, parameters: params, headers: nil)
             
             let expectation = self.expectation(description: "Waiting for perform call to complete.")
             
@@ -56,11 +60,11 @@ final class RutaSeguraTests: XCTestCase {
                 }
 
                 // Wait for expectation to finish
-                waitForExpectations(timeout: 2) { error in
+                waitForExpectations(timeout: 20) { error in
                     XCTAssertNil(error)
                     switch result {
                     case .success(let routeModel):
-                        XCTAssertEqual(routeModel.costoRuta, 1392)
+                        XCTAssertEqual(routeModel.nodosRutaSegura.first, "C-2.5.9")
                     case .failure(let networkErr):
                         XCTFail(networkErr.localizedDescription)
                     case .none:
