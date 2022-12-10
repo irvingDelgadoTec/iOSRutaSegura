@@ -61,10 +61,8 @@ struct GeoJSONManager {
             if let feature = item as? MKGeoJSONFeature { // Convert each generic obejct feature to a 'MKGeoJSONFeature' that can be used by MapKit
                 for geo in feature.geometry { // Get the geometry property of each MKGeoJSONFeature
                     if let polygon = geo as? MKPolygon { // Convert each polygon and their coordinates to a 'MKPolygon' that can be used by MapKit
-                        for i in 0...quadrants.count - 1 {
-                            if GeoJSONFeature.features[counter].properties.cuadrante == quadrants[i] {
-                                overlays.append(polygon) // Append polygons only
-                            }
+                        for i in 0...quadrants.count - 1 where GeoJSONFeature.features[counter].properties.cuadrante == quadrants[i] {
+                            overlays.append(polygon) // Append polygons only
                         }
                     }
                 }
@@ -80,14 +78,14 @@ struct GeoJSONManager {
             fatalError("Unable to load Mexico City's quadrants JSON.")
         }
         
-        var geoJSONPropertiesArray: GeoJSONFeature
+        var geoJSONFeatures: GeoJSONFeature
         do {
             let data = try Data(contentsOf: url)
-            geoJSONPropertiesArray = try JSONDecoder().decode(GeoJSONFeature.self, from: data)
+            geoJSONFeatures = try JSONDecoder().decode(GeoJSONFeature.self, from: data)
         } catch {
             fatalError("Unable to decode Mexico City's quadrants GeoJSON.")
         }
         
-        return geoJSONPropertiesArray
+        return geoJSONFeatures
     }
 }
